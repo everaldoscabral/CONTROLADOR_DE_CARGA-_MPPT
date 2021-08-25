@@ -1,6 +1,6 @@
-# CONTROLADOR_DE_CARGA-_MPPT
+# CONTROLADOR DE CARGA MPPT DA VOLT
 
-Monitoramento via Zabbix do CONTROLADOR DE CARGA MPPT GERENCIÁVEL da Volt.
+Monitoramento via Zabbix do CONTROLADOR DE CARGA MPPT GERENCIÁVEL da Volt via SNMPv2.
 
 1. Instale o MIB da Volt em seu servidor Zabbix Server ou Zabbix Proxy, ele pode ser obtido acessando a interface web do dispositivo. Se preferir, só baixar a que disponibilizei aqui.
 2. Após realizar o Download, adicione o arquivo MIB no diretório destinado a ele. Se sua instalação for no CentOS 7.x, o diretório padrão fica em " /usr/share/snmp/mibs ".
